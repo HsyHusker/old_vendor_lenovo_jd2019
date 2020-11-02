@@ -1,5 +1,4 @@
 # Copyright (C) 2019-2020 The LineageOS Project
-# Copyright (C) 2019-2020 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -197,6 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.display.config@1.9.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/lenovo/kunlun2/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
+    vendor/lenovo/kunlun2/proprietary/system_ext/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qti-telephony-common.jar \
     vendor/lenovo/kunlun2/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
     vendor/lenovo/kunlun2/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
 
